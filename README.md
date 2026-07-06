@@ -44,7 +44,6 @@
 | [k8s-troubleshooting.md](k8s-troubleshooting.md) | Node NotReady, kubelet, logs, container exit codes, DNS failures, networking debug |
 | [cka-practice-tasks.md](cka-practice-tasks.md) | 26 timed practice tasks with real CLI output |
 | [k8s-hands-on-projects.md](k8s-hands-on-projects.md) | **10 POC projects** — full real-world scenarios, copy-paste on Killercoda |
-| [exam-practice-index.md](exam-practice-index.md) | **22 exam-style questions** — 5-day study plan, difficulty-graded |
 
 ---
 
@@ -128,20 +127,6 @@ Full end-to-end scenarios on Killercoda — copy-paste ready → [k8s-hands-on-p
 | 8 | Self-Healing App — Probes & Auto-Restart | livenessProbe, readinessProbe, CrashLoopBackOff |
 | 9 | Persistent Storage — Data Survival Test | PV, PVC, emptyDir contrast |
 | 10 | Ingress Controller — API Gateway Routing | Nginx Ingress, path-based + host-based routing |
-
----
-
-## Exam Practice — 5-Day Study Plan
-
-22 real exam-style questions organized by difficulty → [exam-practice-index.md](exam-practice-index.md)
-
-| Day | File | Difficulty | Questions | Focus |
-|-----|------|-----------|-----------|-------|
-| 1 | [exam-day1-warmup.md](exam-day1-warmup.md) | 🟢 Easy | 5 | StorageClass, Helm, CRDs, Node count, Kubelet |
-| 2 | [exam-day2-core-skills.md](exam-day2-core-skills.md) | 🟡 Medium | 5 | HPA, Services, Sidecars, Resources, Ingress |
-| 3 | [exam-day3-networking.md](exam-day3-networking.md) | 🟠 Medium-Hard | 5 | CNI, NetworkPolicy, CoreDNS, TLS |
-| 4 | [exam-day4-advanced.md](exam-day4-advanced.md) | 🔴 Hard | 5 | PriorityClass, PV/PVC, Gateway API, cri-dockerd |
-| 5 | [exam-day5-cluster-ops.md](exam-day5-cluster-ops.md) | 🔴 Hard | 2 + Review | kubeadm upgrade, Cluster troubleshooting |
 
 ---
 
